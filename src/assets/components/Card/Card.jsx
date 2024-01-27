@@ -4,7 +4,7 @@ const Card = ({ children }) => {
   return (
     <>
       <div
-        className='w-full h-[667px] max-w-[1112px] bg-cardBackground rounded-custom shadow-custom'
+        className='w-full h-[667px] max-w-[1112px] bg-cardBackground overflow-hidden rounded-custom shadow-custom'
         id='card'>
         {children}
       </div>
