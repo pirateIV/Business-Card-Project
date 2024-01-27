@@ -6,12 +6,12 @@ import Link from '../common/Link';
 import Divider from '../common/Divider';
 import ContactInfo from '../common/ContactInfo';
 
-import { EmailIcon } from '../../common/Icons/EmailIcon';
-import { PhoneIcon } from '../../common/Icons/PhoneIcon';
+import { EmailIcon } from '../Icons/EmailIcon';
+import { PhoneIcon } from '../Icons/PhoneIcon';
 import { profileData } from '../../../../data/profileData';
-import { GithubIcon } from '../../common/Icons/GithubIcon';
-import { TwitterIcon } from '../../common/Icons/TwitterIcon';
-import { LinkedinIcon } from '../../common/Icons/LinkedinIcon';
+import { GithubIcon } from '../Icons/GithubIcon';
+import { TwitterIcon } from '../Icons/TwitterIcon';
+import { LinkedinIcon } from '../Icons/LinkedinIcon';
 
 const AsideMain = () => {
   return (
