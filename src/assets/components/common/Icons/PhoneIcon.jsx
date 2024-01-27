@@ -1,4 +1,4 @@
-export default PhoneIcon = () => {
+export  const PhoneIcon = () => {
   return (
     <svg
       width='20'

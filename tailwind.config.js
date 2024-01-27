@@ -3,9 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
-      white__87: 'rgba(255, 255, 255, 0.87)',
       black__87: '#000000',
+      gray__300: '#E0E0E0',
       green__800: '#2E7D32',
+      white__87: '#FFFFFFDE',
       appBackground: '#C8E6C9',
       cardBackground: '#F5F5F5',
     },

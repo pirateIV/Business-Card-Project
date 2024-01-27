@@ -2,15 +2,16 @@ import './App.css';
 
 // imports
 import Main from './assets/components/Main';
-import Card from './assets/components/common/Card/Card';
-import ContactSection from './assets/components/common/Card/ContactSection/ContactSection';
+import Card from './assets/components/Card/Card';
+import AsideMain from './assets/components/Card/Aside/Aside.Main';
+
 
 function App() {
   return (
     <>
       <Main>
         <Card>
-          <ContactSection />
+          <AsideMain />
         </Card>
       </Main>
     </>

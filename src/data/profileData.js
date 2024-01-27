@@ -20,10 +20,13 @@ export const profileData = {
   },
   profession: 'Frontend Developer',
   city: 'Sans Francisco',
-  email: {
-    details: 'zac.patrick@gmail.com',
+  profileLinks: {
+    Gmail: 'benabolade@gmail.com',
+    Github: 'github.com/ben64103',
+    Twitter: '#',
+    Linkedin: '#',
   },
   phone: {
-    details: '(+33) 6 32 43 1290',
+    Number: '(+234) 902 266 8728',
   },
 };
