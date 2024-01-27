@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ContactInfo = ({ id, type, icon, contactMethod }) => {
+const ContactInfo = ({ id, type, icon,href, contactMethod }) => {
   return (
     <>
       <section className='profile flex flex-col gap-3 w-64' id={id}>
@@ -8,7 +8,7 @@ const ContactInfo = ({ id, type, icon, contactMethod }) => {
           {icon}
           <h4 className='font-semibold'>{type}</h4>
         </div>
-        <p className='font-normal text-white__87 text-[16px]'>{contactMethod}</p>
+        <a className='font-[300] text-white__87 text-[16px]' href={href}>{contactMethod}</a>
       </section>
     </>
   );

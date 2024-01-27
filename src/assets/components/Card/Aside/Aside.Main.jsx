@@ -5,14 +5,13 @@ import Socials from './Socials';
 import Link from '../common/Link';
 import Divider from '../common/Divider';
 import ContactInfo from '../common/ContactInfo';
-import { profileData } from '../../../../data/profileData';
 
 import { EmailIcon } from '../../common/Icons/EmailIcon';
 import { PhoneIcon } from '../../common/Icons/PhoneIcon';
+import { profileData } from '../../../../data/profileData';
 import { GithubIcon } from '../../common/Icons/GithubIcon';
 import { TwitterIcon } from '../../common/Icons/TwitterIcon';
 import { LinkedinIcon } from '../../common/Icons/LinkedinIcon';
-
 
 const AsideMain = () => {
   return (
@@ -22,12 +21,14 @@ const AsideMain = () => {
           id='email'
           type='Email'
           icon={<EmailIcon />}
+          href={'mailto:benabolade@gmail.com'}
           contactMethod={profileData.profileLinks.Gmail}
         />
         <ContactInfo
           id='phone'
-          type='Phone'
           icon={<PhoneIcon />}
+          type='Phone/Whatsapp'
+          href={'https://wa.me/2349022668728'}
           contactMethod={profileData.phone.Number}
         />
         <Divider />
