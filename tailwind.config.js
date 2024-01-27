@@ -3,7 +3,7 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
-      white__87: '#FFFFFF',
+      white__87: 'rgba(255, 255, 255, 0.87)',
       black__87: '#000000',
       green__800: '#2E7D32',
       appBackground: '#C8E6C9',
