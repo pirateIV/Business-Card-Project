@@ -14,7 +14,7 @@ import { TwitterIcon } from '../Icons/TwitterIcon';
 import { LinkedinIcon } from '../Icons/LinkedinIcon';
 
 const AsideMain = () => {
-  const { Number } = profileData.phone;
+  const { phone } = profileData;
   const { Gmail, Github, Linkedin, Twitter } = profileData.profileLinks;
 
   return (
@@ -24,15 +24,15 @@ const AsideMain = () => {
           id='email'
           type='Email'
           icon={<EmailIcon />}
-          href={'mailto:benabolade@gmail.com'}
           contactMethod={Gmail}
+          href={'mailto:benabolade@gmail.com'}
         />
         <ContactInfo
           id='phone'
           icon={<PhoneIcon />}
           type='Phone/Whatsapp'
+          contactMethod={phone}
           href={'https://wa.me/2349022668728'}
-          contactMethod={Number}
         />
         <Divider />
         <Socials>

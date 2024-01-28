@@ -2,7 +2,7 @@ import {
   NodejsOriginal,
   ReactOriginal,
   JavascriptOriginal,
-  TailwindcssOriginalWordmark,
+  TailwindcssPlain,
 } from 'devicons-react';
 
 const PHONE_NUMBER = '(+234) 902 266 8728';
@@ -20,23 +20,39 @@ const profileLinks = {
 };
 
 const phone = {
-  number: PHONE_NUMBER,
+  Number: PHONE_NUMBER,
 };
 
 const technologies = [
-  { name: 'JavaScript', icon: JavascriptOriginal },
-  { name: 'React', icon: ReactOriginal },
-  { name: 'NodeJS/Express', icon: NodejsOriginal },
-  { name: 'TailwindCSS', icon: TailwindcssOriginalWordmark },
+  {
+    id: 1,
+    name: 'JavaScript',
+    icon: <JavascriptOriginal className='inline-flex' />,
+  },
+  {
+    id: 2,
+    name: 'React',
+    icon: <ReactOriginal className='inline-flex' />,
+  },
+  {
+    id: 3,
+    name: 'NodeJS/Express',
+    icon: <NodejsOriginal className='inline-flex' />,
+  },
+  {
+    id: 4,
+    name: 'TailwindCSS',
+    icon: <TailwindcssPlain className='inline-flex' />,
+  },
 ];
 
 const profileData = {
   name,
-  phone,
   profileLinks,
   technologies,
   city: 'Ibadan',
-  profession: 'Frontend/Backend Dev.',
+  phone: phone.Number,
+  profession: 'FullStack Developer',
   bio: `High accomplishment and user-focused Front-end
         Developer adept in collaborating with UX and design
         teams to plan the technical writing and execution 

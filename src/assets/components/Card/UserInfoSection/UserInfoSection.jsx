@@ -15,9 +15,9 @@ const UserInfoSection = () => {
         </h1>
 
         <div id='about-person'>
-          <h5 className='font-semibold text-black__87 text-headingSmall'>
+          <h5 className='flex items-center gap-3 font-semibold text-black__87 text-headingSmall'>
             {' '}
-            {profession} . {city}
+            {profession} <span className='text-[30px]'>·</span> {city}
           </h5>
         </div>
         <div className='w-[437px] font-normal text-black__87 text-body' id='bio'>
@@ -28,10 +28,11 @@ const UserInfoSection = () => {
           <h5 className='font-semibold text-black__87 text-headingSmall'>
             Working with technologies:
           </h5>
-          <ul className='text-body no-underline ps-6'>
-            {technologies.map((tech) => (
-              <li className='py-2 list-item'>
-                 {tech}
+          <ul className='text-body no-underline ps-1'>
+            {technologies.map(({ id, name, icon }) => (
+              <li key={id} className='py-2 list-item'>
+                <span>{icon}</span>
+                <span className='ms-3'>{name}</span>
               </li>
             ))}
           </ul>
