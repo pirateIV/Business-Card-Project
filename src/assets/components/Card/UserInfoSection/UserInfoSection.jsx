@@ -8,7 +8,7 @@ const UserInfoSection = () => {
   const { name, bio, city, profession, technologies } = profileData;
 
   return (
-    <div className='w-[450px] flex flex-col gap-4'>
+    <div className='w-[465px] flex flex-col gap-4'>
       <h1 className='text-headingLarge font-semibold leading-none'>
         <span className='text-green__800'>{name.firstName}</span>
         <br />
