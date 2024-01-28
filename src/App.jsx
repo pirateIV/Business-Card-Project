@@ -5,6 +5,7 @@ import Main from './assets/components/Main';
 import Card from './assets/components/Card/Card';
 import AsideMain from './assets/components/Card/Aside/Aside.Main';
 import UserProfileImage from './assets/components/Card/Image/UserProfileImage';
+import UserInfoSection from './assets/components/Card/UserInfoSection/UserInfoSection';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Card>
           <AsideMain />
           <UserProfileImage />
+          <UserInfoSection />
         </Card>
       </Main>
     </>
