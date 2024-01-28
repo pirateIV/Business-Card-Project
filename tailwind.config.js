@@ -3,10 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
-      black__87: '#000000',
       gray__300: '#E0E0E0',
       green__800: '#2E7D32',
       white__87: '#FFFFFFDE',
+      black__87: '#000000DE',
       appBackground: '#C8E6C9',
       cardBackground: '#F5F5F5',
     },
@@ -19,6 +19,11 @@ export default {
       },
       fontFamily: {
         custom: ['Poppins', 'sans-serif'],
+      },
+      fontSize: {
+        body: '16px',
+        headingLarge: '46px',
+        headingSmall: '19px',
       },
     },
   },

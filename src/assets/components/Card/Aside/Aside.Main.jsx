@@ -5,10 +5,10 @@ import Socials from './Socials';
 import Link from '../common/Link';
 import Divider from '../common/Divider';
 import ContactInfo from '../common/ContactInfo';
+import profileData from '../../../../data/profileData';
 
 import { EmailIcon } from '../Icons/EmailIcon';
 import { PhoneIcon } from '../Icons/PhoneIcon';
-import { profileData } from '../../../../data/profileData';
 import { GithubIcon } from '../Icons/GithubIcon';
 import { TwitterIcon } from '../Icons/TwitterIcon';
 import { LinkedinIcon } from '../Icons/LinkedinIcon';

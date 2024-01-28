@@ -1,32 +1,46 @@
-// const EmailIcon = import('../assets/icons/email-icon.svg');
-// const PhoneIcon = import('../assets/icons/phone-icon.svg');
+import {
+  NodejsOriginal,
+  ReactOriginal,
+  JavascriptOriginal,
+  TailwindcssOriginalWordmark,
+} from 'devicons-react';
 
-// const LinkedInIcom = import('../assets/icons/linkedin-icon.svg');
-// const GithubIcon = import('../assets/icons/github-icon.svg');
-// const TwitterIcon = import('../twitter-icon.svg');
+const PHONE_NUMBER = '(+234) 902 266 8728';
 
-// export const icons = {
-//   EmailIcon,
-//   PhoneIcon,
-//   LinkedInIcom,
-//   GithubIcon,
-//   TwitterIcon,
-// };
-
-export const profileData = {
-  name: {
-    firstName: 'Zac',
-    lastName: 'Patrick',
-  },
-  profession: 'Frontend Developer',
-  city: 'Sans Francisco',
-  profileLinks: {
-    Gmail: 'benabolade@gmail.com',
-    Github: 'github.com/ben64103',
-    Twitter: '#',
-    Linkedin: '#',
-  },
-  phone: {
-    Number: '(+234) 902 266 8728',
-  },
+const name = {
+  firstName: 'Ben',
+  lastName: 'Abolade',
 };
+
+const profileLinks = {
+  Twitter: '#',
+  Linkedin: '#',
+  Gmail: 'benabolade@gmail.com',
+  Github: 'github.com/ben64103',
+};
+
+const phone = {
+  number: PHONE_NUMBER,
+};
+
+const technologies = [
+  { name: 'JavaScript', icon: JavascriptOriginal },
+  { name: 'React', icon: ReactOriginal },
+  { name: 'NodeJS/Express', icon: NodejsOriginal },
+  { name: 'TailwindCSS', icon: TailwindcssOriginalWordmark },
+];
+
+const profileData = {
+  name,
+  phone,
+  profileLinks,
+  technologies,
+  city: 'Ibadan',
+  profession: 'Frontend/Backend Dev.',
+  bio: `High accomplishment and user-focused Front-end
+        Developer adept in collaborating with UX and design
+        teams to plan the technical writing and execution 
+        of functional specifications for websites and applications.`,
+};
+
+export default profileData;
