@@ -16,7 +16,7 @@ const profileLinks = {
   Twitter: '#',
   Linkedin: '#',
   Gmail: 'benabolade@gmail.com',
-  Github: 'github.com/ben64103',
+  Github: 'https://github.com/ben64103',
 };
 
 const phone = {
