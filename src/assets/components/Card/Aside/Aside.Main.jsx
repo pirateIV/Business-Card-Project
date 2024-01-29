@@ -38,7 +38,7 @@ const AsideMain = () => {
         <Socials>
           <h4 className='font-semibold'>Find me on</h4>
           <div className='icons flex items-center gap-5'>
-            <Link to={Github} icon={<GithubIcon />} />
+            <Link to={Github} icon={<GithubIcon cs='text-blue'/>} />
             <Link to={Linkedin} icon={<LinkedinIcon />} />
             <Link to={Twitter} icon={<TwitterIcon />} />
           </div>
